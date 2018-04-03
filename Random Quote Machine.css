@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+#quote_box {
+  width: 450px;
+  margin: 8% auto auto auto;
+  padding: 40px 50px;
+  border-radius: 3px;
+  text-align: center;
+  background-color: white;
+}
+
+#quote_box .text {
+  font-size: 1.75em;
+  text-weight: 500;
+}
+
+#quote_box .author {
+  text-align: right;
+  padding-top: 20px;
+}
+
+#quote_box .buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+#quote_box .buttons a {
+  font-size: 1.2em;
+  height: 38px;
+  width: 40px;
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+
+#quote_box .buttons a:hover {
+  opacity: 0.7;
+} 
+
+#quote_box .buttons button {
+  padding: 8px 18px 6px 18px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-size: 0.85em;
+  cursor: pointer;
+}
+
+#quote_box .buttons button:hover {
+  opacity: 0.7;
+}
+
+#quote_box .buttons button:focus {
+  outline: 0;
+}
+
+#quote_box .buttons a .fa {
+  padding: 9.5px;
+}
+
+footer {
+  text-align: center;
+  margin: 15px auto 30px;
+  font-size: 0.8em;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
